@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+    
+}
+.spli{
+    margin-left: 50%;
+    margin-top: 6%;
+    color: hsl(183, 100%, 15%);
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 6px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+main{
+    background-color: white;
+    width: 50vw;
+    height: 45vh;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5%;
+
+}
+.left-box{
+    width: 53%;
+    color: hsl(184, 14%, 56%);
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+.inputy{
+    width: 82%;
+    height: 4vh;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color:  hsl(189, 41%, 97%);
+}
+.tip-category{
+      
+    width: 93%;
+    margin-left: 3.5%;
+}
+.tips{
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+.tip{
+    width: 25%;
+    height: 5vh;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 1.5%;
+    color: white;
+    background:  hsl(183, 100%, 15%);
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+   
+}
+.t15{
+    background:  hsl(172, 67%, 45%);
+}
+.custom{
+    background: hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);
+   
+}
+.inputy::placeholder{
+    text-align: center;
+   
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+.custom::placeholder{
+    text-align: center;
+ 
+}
+.numbers{
+    margin: 3.5%;
+ 
+}
+.numbers > p{
+    margin-bottom: 2%;
+}
+input[type=button]:focus{
+    background-color: #25c2ad;
+}
+input[type=button]:hover{
+    background-color: #9fe8dd;
+    transition: .2s;
+    color: #00464a;
+}
+
+
+
+
+
+
+.right-box{
+    width: 47%;
+    background: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10% 8%;
+}
+
+.cash-amount{
+
+    font-size: 2.2em;
+    color: hsl(172, 67%, 45%);
+    font-weight: 700;
+}
+.text-tip{
+    font-weight: 700;
+    color: white;
+    font-size: 1.1em;
+}
+.text-person{
+    color: hsl(185, 41%, 84%);
+}
+
+.reset{
+    
+    margin: 0 8%;
+    margin-top: 20%;
+}
+.reset input{
+    height: 5vh;
+    width: 100%;
+    outline: none;
+    background: hsl(172, 67%, 45%);
+    border: none;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+    font-size: 1.2em;
+}
